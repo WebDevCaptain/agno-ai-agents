@@ -1,6 +1,12 @@
-# Finance Agent using agno and Ollama 
+# Finance Agent using agno and Ollama
 
-A simple agent using Deepseek R1 (8B) model via Ollama (hosted locally)
+A simple finance agent using Yahoo Finance tool and Open source LLMs via Ollama.
+
+- The first basic agent uses Deepseek R1 (8B parameter) model.
+
+- The finance agent uses Qwen 2.5 (1.5B parameter) model.
+
+---
 
 ## Requirements
 
@@ -8,7 +14,6 @@ A simple agent using Deepseek R1 (8B) model via Ollama (hosted locally)
 - [ollama](https://github.com/ollama)
 
 ---
-
 
 ## Commands
 
@@ -31,16 +36,30 @@ uv add agno
 uv add ollama
 ```
 
-4. Pull Deepseek R1 (8B) model from Ollama registry
+4. Pull Deepseek R1 (8B) and Qwen 2.5 (1.5B) models from Ollama registry
 
 ```bash
 ollama pull deepseek-r1:8b
+
+ollama pull qwen2.5:1.5b
 ```
 
-5. Run the app
+5. Run the simple ollama-agent app
 
 ```bash
 uv run ollama-agent.py
 ```
 
 ![Simple Ollama Agent](./images/ollama-agent.png)
+
+---
+
+## Finance agent using Yahoo Finance tool
+
+- Run the finance-agent app
+
+```bash
+uv run finance-agent.py
+```
+
+![Finance Agent](./images/finance-agent.png)
