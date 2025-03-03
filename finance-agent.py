@@ -1,5 +1,3 @@
-"""Run `pip install yfinance` to install dependencies."""
-
 from agno.agent import Agent
 from agno.models.ollama import Ollama
 from agno.tools.yfinance import YFinanceTools
