@@ -1,5 +1,6 @@
-# Finance Agent using agno and Ollama (Deepseek R1 - 8B model)
+# Finance Agent using agno and Ollama 
 
+A simple agent using Deepseek R1 (8B) model via Ollama (hosted locally)
 
 ## Requirements
 
