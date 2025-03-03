@@ -4,8 +4,10 @@ A simple agent using Deepseek R1 (8B) model via Ollama (hosted locally)
 
 ## Requirements
 
-- uv
-- ollama
+- [uv](https://github.com/astral-sh/uv)
+- [ollama](https://github.com/ollama)
+
+---
 
 
 ## Commands
@@ -29,8 +31,16 @@ uv add agno
 uv add ollama
 ```
 
-4. Run the app
+4. Pull Deepseek R1 (8B) model from Ollama registry
+
+```bash
+ollama pull deepseek-r1:8b
+```
+
+5. Run the app
 
 ```bash
 uv run ollama-agent.py
 ```
+
+![Simple Ollama Agent](./images/ollama-agent.png)
