@@ -1,0 +1,10 @@
+[project]
+name = "agno-demo"
+version = "0.1.0"
+description = "Finance agent using Agno and Ollama (Deepseek R1 - 8B, distilled Llama)."
+readme = "README.md"
+requires-python = ">=3.13.2"
+dependencies = [
+    "agno>=1.1.7",
+    "ollama>=0.4.7",
+]
