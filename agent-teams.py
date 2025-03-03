@@ -48,7 +48,7 @@ agent_team = Agent(
     show_tool_calls=True,
     add_datetime_to_instructions=True,
     markdown=True,
-    debug_mode=True,
+    # debug_mode=True,
 )
 
 agent_team.print_response(
