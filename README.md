@@ -63,3 +63,15 @@ uv run finance-agent.py
 ```
 
 ![Finance Agent](./images/finance-agent.png)
+
+---
+
+## Team of Agents
+
+Finance agent works with Search agent to find the analyst recommendation for a company.
+
+```bash
+uv run agent-teams.py
+```
+
+![Team of Agents](./images/agent-teams.png)
