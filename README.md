@@ -6,7 +6,7 @@ A simple finance agent using Yahoo Finance tool and Open source LLMs via Ollama.
 
 - The finance agent uses Qwen 2.5 (1.5B parameter) model.
 
-- Teh team of agents uses DuckDuckGo search and Yahoo finance to summarize analyst recommendation and share latest news for a company given its stock ticker symbol.
+- The team of agents uses DuckDuckGo search and Yahoo finance to summarize analyst recommendation and share latest news for a company given its stock ticker symbol.
 
 ---
 
