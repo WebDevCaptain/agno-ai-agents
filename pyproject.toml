@@ -7,7 +7,10 @@ requires-python = ">=3.13.2"
 dependencies = [
     "agno>=1.1.7",
     "black>=25.1.0",
+    "chromadb>=0.6.3",
     "duckduckgo-search>=7.5.0",
     "ollama>=0.4.7",
+    "openai>=1.65.2",
+    "pypdf>=5.3.1",
     "yfinance>=0.2.54",
 ]
