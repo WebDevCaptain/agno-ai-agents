@@ -6,6 +6,8 @@ A simple finance agent using Yahoo Finance tool and Open source LLMs via Ollama.
 
 - The finance agent uses Qwen 2.5 (1.5B parameter) model.
 
+- Teh team of agents uses DuckDuckGo search and Yahoo finance to summarize analyst recommendation and share latest news for a company given its stock ticker symbol.
+
 ---
 
 ## Requirements
@@ -75,3 +77,11 @@ uv run agent-teams.py
 ```
 
 ![Team of Agents](./images/agent-teams.png)
+
+---
+
+## Knowledge Agent (WIP)
+
+Reads a PDF using PyPDF and uses ChromaDB (a vector database) to store embeddings (using Ollama embedder) and retrieve knowledge based on user queries.
+
+Model used: Llama 3.2 (3B parameter)
