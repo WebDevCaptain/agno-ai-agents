@@ -1,12 +1,21 @@
-# Finance Agent using agno and Ollama
+# AI Agents using `agno` and Ollama
 
-A simple finance agent using Yahoo Finance tool and Open source LLMs via Ollama.
+Agents example list:
 
-- The first basic agent uses Deepseek R1 (8B parameter) model.
+1. [Simple Ollama Agent](./ollama-agent.py)
+   The first basic agent that uses Deepseek R1 (8B parameter) model.
 
-- The finance agent uses Qwen 2.5 (1.5B parameter) model.
+2. [Finance Agent](./finance-agent.py)
+   A simple finance agent using Yahoo Finance tool and Qwen 2.5 (1.5B parameter) model via Ollama.
 
-- The team of agents uses DuckDuckGo search and Yahoo finance to summarize analyst recommendation and share latest news for a company given its stock ticker symbol.
+3. [Team of Agents](./agent-teams.py)
+   The team of agents uses DuckDuckGo search and Yahoo finance to summarize analyst recommendation and share latest news for a company given its stock ticker symbol.
+
+4. [Image Agent](./image-agent.py)
+   The image agent reads an image and uses Llama 3.2 vision model to describe the image.
+
+5. [Knowledge Agent (WIP)](./knowledge-agent.py)
+   The knowledge agent reads a PDF using PyPDF and uses ChromaDB (a vector database) to store embeddings (using Ollama embedder) and retrieve knowledge based on user queries.
 
 ---
 
@@ -83,6 +92,16 @@ uv run agent-teams.py
 ```
 
 ![Team of Agents](./images/agent-teams.png)
+
+---
+
+## Image Agent
+
+Reads an image and uses Llama 3.2 vision model to describe the image.
+
+Model used: Llama 3.2 (11B parameter)
+
+![Image Agent](./images/image-agent.png)
 
 ---
 
