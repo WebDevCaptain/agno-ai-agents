@@ -10,6 +10,12 @@ A simple finance agent using Yahoo Finance tool and Open source LLMs via Ollama.
 
 ---
 
+## Basic Architecture
+
+![Architecture](./images/ai-agents-architecture.svg)
+
+---
+
 ## Requirements
 
 - [uv](https://github.com/astral-sh/uv)
