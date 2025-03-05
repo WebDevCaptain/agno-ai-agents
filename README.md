@@ -91,3 +91,9 @@ uv run agent-teams.py
 Reads a PDF using PyPDF and uses ChromaDB (a vector database) to store embeddings (using Ollama embedder) and retrieve knowledge based on user queries.
 
 Model used: Llama 3.2 (3B parameter)
+
+---
+
+## License
+
+This repository is licensed under the [MIT License](LICENSE).
